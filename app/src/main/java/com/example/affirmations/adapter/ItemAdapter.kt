@@ -28,6 +28,6 @@ class ItemAdapter(
         val item=dataset[position]
         holder.textView.text = context.resources.getString(item.stringResourceId)
     }
-    
+
     override fun getItemCount()=dataset.size
 }
